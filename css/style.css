@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.openinghours {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1028px;
+    width: 100%;
+    padding: 19px 0px;
+}
+
+.time {
+    color: #1C2752;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.socialnav {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.emailinfo {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1028px;
+    width: 100%;
+    padding-top: 30px;
+    align-items: center;
+    margin-bottom: 104px;
+}
+
+header {
+    background: #0E0E0E;
+}
+
+.conatctinfo {
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+
+.mailp {
+    color: #DD2590;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.info {
+    color: #7E7E7E;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mailus {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.mailinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.artcontainer {
+    background-image: url(../images/art.svg);
+    width: 1440px;
+    height: 825px;
+}
+
+.future {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    margin-bottom: 56px;
+    max-width: 619px;
+    width: 100%;
+    gap: 32px;
+}
+
+.digitalArtt {
+    color: #FFF;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.containerdiv {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.providenft {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.industrialproject {
+    display: flex;
+    background: rgba(255, 255, 255, 0.20);
+    padding: 8px 16px 7px 16px;
+    max-width: 471px;
+    width: 100%;
+    align-items: center;
+    gap: 8px;
+}
+
+.industrialproject p {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

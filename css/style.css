@@ -87,7 +87,8 @@ a {
 
 .artcontainer {
     background-image: url(../images/art.svg);
-    width: 1440px;
+    background-size: cover;
+    width: 100%;
     height: 825px;
 }
 
@@ -96,7 +97,7 @@ a {
     flex-direction: column;
     justify-content: flex-end;
     height: 100%;
-    margin-bottom: 56px;
+    margin-bottom: 88px;
     max-width: 619px;
     width: 100%;
     gap: 32px;
@@ -114,6 +115,8 @@ a {
     height: 100%;
     display: flex;
     justify-content: center;
+    max-width: 1050px;
+    width: 100%;
     align-items: center;
 
 }
@@ -140,4 +143,34 @@ a {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.contectbox {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.button_ {
+    padding: 20px 33px 20px 33px;
+    background: #DD2590;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+}
+.provideforfuture {
+    max-width: 1028px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-top: 104px;
+    margin-bottom: 112px;
+}
+.sectionone {
+    background: #0E0E0E;
 }
